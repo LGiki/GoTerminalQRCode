@@ -10,6 +10,7 @@ import (
 	"math"
 	"math/rand"
 	"os"
+	"runtime"
 	"time"
 )
 
@@ -86,7 +87,7 @@ func printUsage() {
 func main() {
 	parseFlags()
 	// When received message from pipeline
-	if !terminal.IsTerminal(0) {
+	if runtime.GOOS != "windows" && !terminal.IsTerminal(0) {
 		pipeBytes, err := ioutil.ReadAll(os.Stdin)
 		if err != nil {
 			fmt.Fprintln(os.Stderr, "Failed to read Stdin:", err.Error())
