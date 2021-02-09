@@ -33,7 +33,7 @@ For example, you can generate QR code in your terminal by:
 This program also supports receiving input from pipeline:
 
 ```bash
-echo "Your Message Here" | ./GoTerminalQRCode
+echo -n "Your Message Here" | ./GoTerminalQRCode
 ```
 
 ## Command-line Flags
