@@ -1,5 +1,7 @@
 # Go Terminal QR Code
 
+[![GitHub license](https://img.shields.io/github/license/LGiki/GoTerminalQRCode?style=flat-square)](https://github.com/LGiki/GoTerminalQRCode/blob/master/LICENSE)
+
 :rainbow: ​Generate QR code in your terminal.
 
 # Screenshot
