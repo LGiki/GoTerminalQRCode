@@ -63,9 +63,8 @@ func rgbTo256(red, green, blue int, content string) string {
 	}
 	if gray {
 		return fmt.Sprintf("\033[48;5;%dm%s\033[0m", 232+int(math.Round((float64(red)+float64(green)+float64(blue))/33)), content)
-	} else {
-		return fmt.Sprintf("\033[48;5;%dm%s\033[0m", 16+(int(6*float64(red)/256)*36+int(6*float64(green)/256)*6+int(6*float64(blue)/256)*1), content)
 	}
+	return fmt.Sprintf("\033[48;5;%dm%s\033[0m", 16+(int(6*float64(red)/256)*36+int(6*float64(green)/256)*6+int(6*float64(blue)/256)*1), content)
 }
 
 func rgbToTrueColor(red, green, blue int, content string) string {
