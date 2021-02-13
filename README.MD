@@ -1,6 +1,6 @@
 # Go Terminal QR Code
 
-[![GitHub license](https://img.shields.io/github/license/LGiki/GoTerminalQRCode?style=flat-square)](https://github.com/LGiki/GoTerminalQRCode/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/LGiki/GoTerminalQRCode?style=flat-square)](https://github.com/LGiki/GoTerminalQRCode/blob/master/LICENSE) [![Go Report Card](https://goreportcard.com/badge/github.com/LGiki/GoTerminalQRCode)](https://goreportcard.com/report/github.com/LGiki/GoTerminalQRCode)
 
 :rainbow: ​Generate QR code in your terminal.
 
@@ -8,6 +8,8 @@
 ![Screenshot](screenshot.png)
 
 # Build
+
+Make sure [go](https://golang.org/) is installed on your system correctly.
 
 ```bash
 git clone https://github.com/LGiki/GoTerminalQRCode.git
